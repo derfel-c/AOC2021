@@ -46,3 +46,4 @@ with open("input.txt", "r") as f:
     drawing = list(map(int, content[0].split(",")))
     boards = parse_boards(content)
     print(bingo(boards, drawing))
+list(map(lambda y: y.split(","), map(lambda x: x.split("->"), f.read().splitlines())))

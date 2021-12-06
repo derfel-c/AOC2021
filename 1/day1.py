@@ -1,4 +1,4 @@
-def get_sums(values: list) -> list:
+def get_sums(values: list[int]) -> list[int]:
     return [sum(values[i:i + 3]) for i in range(0, len(values) - 2)]
 
 

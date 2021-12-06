@@ -1,7 +1,7 @@
 from typing import List
 import copy
 
-def parse_boards(data: list) -> list:
+def parse_boards(data: list) -> list[int]:
     boards = []
     single_board = []
     for i in range(2, len(data)):
